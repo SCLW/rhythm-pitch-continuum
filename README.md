@@ -6,7 +6,7 @@ A [Max/MSP demonstration](patch/demo1-rhythm-intervals.maxpat) of Henry Cowell's
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/img/rhythm-ratios-dark.svg">
-  <img alt="Four ratios as paired pulse trains: 3:2 and 5:4 meet again after 2 and 4 beats; √2:1 and π:e share one downbeat and never coincide again" src="assets/img/rhythm-ratios-light.svg">
+  <img alt="Four ratios as paired click trains: 3:2 and 5:4 meet again after 2 and 4 clicks of the slower train; √2:1 and π:e share one downbeat and never coincide again" src="assets/img/rhythm-ratios-light.svg">
 </picture>
 
 ## Henry Cowell on rhythm and pitch
@@ -21,15 +21,15 @@ A [Max/MSP demonstration](patch/demo1-rhythm-intervals.maxpat) of Henry Cowell's
 
 Two hard-panned click trains with repetition rates *f* and *f·r* (a rate ratio *r*) produce rhythmic structures at approximately 2 Hz. When accelerated into the audible range, the same frequency relationship is perceived as a musical interval, illustrating Henry Cowell's concept from *New Musical Resources* (1930).
 
-For rational ratios, the pulse trains coincide again after a finite number of beats (e.g. 3:2, 5:4). Irrational ratios, such as √2:1 and π:e, share only the initial downbeat and never coincide again.
+For rational ratios, the click trains coincide again after a finite number of clicks (e.g. 3:2, 5:4). Irrational ratios, such as √2:1 and π:e, share only the initial downbeat and never coincide again.
 
-Pulse trains with frequencies *f* and *f·r*, where *r* = *p*/*q* is a ratio of whole numbers in lowest terms, coincide with period
+The click trains, with frequencies *f* and *f·r*, where *r* = *p*/*q* is a ratio of whole numbers in lowest terms, coincide with period
 
 $$
 T = \frac{q}{f} = \frac{p}{f \cdot r}
 $$
 
-That is: the trains meet again after *q* beats of the slower and *p* beats of the faster train. An irrational *r* cannot be written as such a ratio, so no period exists: the trains share only the downbeat at *t* = 0.
+That is: the trains meet again after *q* clicks of the slower and *p* clicks of the faster train. An irrational *r* cannot be written as such a ratio, so no period exists: the trains share only the downbeat at *t* = 0.
 
 **Max patch:** [`patch/demo1-rhythm-intervals.maxpat`](patch/demo1-rhythm-intervals.maxpat), no version-specific objects, tested in Max 9. [Max](https://cycling74.com/downloads) is free to download and runs patches without a license.
 

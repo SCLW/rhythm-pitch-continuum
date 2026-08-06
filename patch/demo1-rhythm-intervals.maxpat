@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 50.0, 120.0, 1239.0, 760.0 ],
+        "rect": [ 50.0, 107.0, 1239.0, 760.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -612,13 +612,15 @@
                 "box": {
                     "fontface": 1,
                     "id": "obj-202",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 100.0, 92.0, 340.0, 20.0 ],
+                    "patching_rect": [ 100.0, 92.0, 340.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 110.0, 360.0, 20.0 ],
-                    "text": "just intervals (p : q — the trains meet every q beats)"
+                    "presentation_linecount": 2,
+                    "presentation_rect": [ 40.0, 110.0, 360.0, 33.0 ],
+                    "text": "just intervals (p : q; coincidence after q slower clicks and p faster clicks)"
                 }
             },
             {
