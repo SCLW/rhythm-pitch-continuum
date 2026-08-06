@@ -17,7 +17,7 @@ A [Max/MSP demonstration](patch/demo1-rhythm-intervals.maxpat) of Henry Cowell's
 
 > “Corresponding to the tone interval of a major third would be a time-ratio of five against four notes” (Cowell 51).
 
-## What the Max patch does
+## Max patch description
 
 Two hard-panned click trains with repetition rates *f* and *f·r* (a rate ratio *r*) produce rhythmic structures at approximately 2 Hz. When accelerated into the audible range, the same frequency relationship is perceived as a musical interval, illustrating Henry Cowell's concept from *New Musical Resources* (1930).
 
@@ -33,7 +33,7 @@ That is: the trains meet again after *q* beats of the slower and *p* beats of th
 
 **Max patch:** [`patch/demo1-rhythm-intervals.maxpat`](patch/demo1-rhythm-intervals.maxpat), no version-specific objects, tested in Max 9. [Max](https://cycling74.com/downloads) is free to download and runs patches without a license.
 
-**Slides:** [Conlon Nancarrow, Sound (Art & Technology)](https://teaching.medienkunst-sound.de/sound_art_and_technology/conlon_nancarrow/), HfG Karlsruhe.
+**Slides:** [Sound (Art & Technology)](https://teaching.medienkunst-sound.de/sound_art_and_technology/), HfG Karlsruhe.
 
 ## Works Cited
 
