@@ -23,15 +23,15 @@ Two hard-panned click trains with repetition rates *f* and *f·r* (a rate ratio 
 
 For rational ratios, the pulse trains coincide again after a finite number of beats (e.g. 3:2, 5:4). Irrational ratios, such as √2:1 and π:e, share only the initial downbeat and never coincide again.
 
-Pulse trains with frequencies *f* and *f·r*, where *r* = *p*/*q* in lowest terms, coincide with period
+Pulse trains with frequencies *f* and *f·r*, where *r* = *p*/*q* is a ratio of whole numbers in lowest terms, coincide with period
 
 $$
-T = \frac{q}{f} = \frac{p}{f\,r}\,,
+T = \frac{q}{f} = \frac{p}{f \cdot r}
 $$
 
-that is, after *q* beats of the slower train and *p* beats of the faster. For irrational *r* no such period exists: the trains share only the downbeat at *t* = 0.
+That is: the trains meet again after *q* beats of the slower and *p* beats of the faster train. An irrational *r* cannot be written as such a ratio, so no period exists: the trains share only the downbeat at *t* = 0.
 
-**Max patch:** [`patch/demo1-rhythm-intervals.maxpat`](patch/demo1-rhythm-intervals.maxpat), no version-specific features, tested in Max 9. [Max](https://cycling74.com/downloads) is free to download and runs patches without a license.
+**Max patch:** [`patch/demo1-rhythm-intervals.maxpat`](patch/demo1-rhythm-intervals.maxpat), no version-specific objects, tested in Max 9. [Max](https://cycling74.com/downloads) is free to download and runs patches without a license.
 
 **Slides:** [Conlon Nancarrow, Sound (Art & Technology)](https://teaching.medienkunst-sound.de/sound_art_and_technology/conlon_nancarrow/), HfG Karlsruhe.
 
