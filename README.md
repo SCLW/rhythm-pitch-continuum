@@ -23,13 +23,13 @@ Two hard-panned click trains with repetition rates *f* and *f·r* (a rate ratio 
 
 For rational ratios, the click trains coincide again after a finite number of clicks (e.g. 3:2, 5:4). Irrational ratios, such as √2:1 and π:e, share only the initial click and never coincide again.
 
-The click trains, with frequencies *f* and *f·r*, where *r* = *p*/*q* is a ratio of whole numbers in lowest terms, coincide with period:
+The click trains, with frequencies *f* and *f·r*, where *r* = *p*/*q* > 1 and *p* and *q* are coprime positive integers, coincide with period:
 
 $$
 T = \frac{q}{f} = \frac{p}{f \cdot r}
 $$
 
-Therefore, the trains meet again after *q* clicks of the slower and *p* clicks of the faster train. An irrational *r* cannot be written as such a ratio, so no period exists.
+Therefore, the trains meet again after *q* cycles of the slower train and *p* cycles of the faster train. If *r* is irrational, no positive time corresponds to an integer number of cycles of both trains. The initial coincidence never repeats.
 
 **Max patch:** [`patch/demo1-rhythm-intervals.maxpat`](patch/demo1-rhythm-intervals.maxpat), no version-specific objects, tested in Max 9. [Max](https://cycling74.com/downloads) is free to download and runs patches without a license.
 
