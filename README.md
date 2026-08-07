@@ -2,7 +2,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-A [Max/MSP demonstration](patch/demo1-rhythm-intervals.maxpat) of Henry Cowell's “relationship of rhythm to sound-vibration”, created as part of the lecture on Conlon Nancarrow.
+A [Max/MSP demonstration](patch/demo1-rhythm-intervals.maxpat) of Henry Cowell's “relationship of rhythm to sound-vibration” from *New Musical Resources* (1930), created as part of the lecture on Conlon Nancarrow.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/img/rhythm-ratios-dark.svg">
@@ -19,9 +19,9 @@ A [Max/MSP demonstration](patch/demo1-rhythm-intervals.maxpat) of Henry Cowell's
 
 ## Max patch description
 
-Two hard-panned click trains with repetition rates f and f·r produce rhythmic structures at a few clicks per second. When accelerated into the audible range, the same frequency relationship is perceived as a musical interval, illustrating Henry Cowell's concept from *New Musical Resources* (1930).
+Two hard-panned click trains with repetition rates f and f·r in a simple whole-number ratio, such as 3:2 or 5:4, produce polyrhythms at a few clicks per second, and the trains coincide periodically. When accelerated into the audible range, the same frequency relationship is perceived as a musical interval.
 
-For rational ratios, the click trains coincide periodically (e.g. 3:2, 5:4). Irrational ratios, such as √2:1 and π:e, share only the initial click and never coincide again.
+Irrational ratios, such as √2:1 and π:e, produce the same few clicks per second, but the trains share only the initial click and never coincide again, a rhythm without a repeating cell.
 
 **Max patch:** [`patch/demo1-rhythm-intervals.maxpat`](patch/demo1-rhythm-intervals.maxpat), no version-specific objects, tested in Max 9. [Max](https://cycling74.com/downloads) is free to download and runs patches without a license.
 
