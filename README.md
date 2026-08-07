@@ -19,7 +19,7 @@ A [Max/MSP demonstration](patch/demo1-rhythm-intervals.maxpat) of Henry Cowell's
 
 ## Max patch description
 
-Two hard-panned click trains with repetition rates *f* and *f·r* (a rate ratio *r*) produce rhythmic structures at approximately 2 Hz. When accelerated into the audible range, the same frequency relationship is perceived as a musical interval, illustrating Henry Cowell's concept from *New Musical Resources* (1930).
+Two hard-panned click trains with repetition rates f and f·r produce rhythmic structures at a few clicks per second. When accelerated into the audible range, the same frequency relationship is perceived as a musical interval, illustrating Henry Cowell's concept from *New Musical Resources* (1930).
 
 For rational ratios, the click trains coincide periodically (e.g. 3:2, 5:4). Irrational ratios, such as √2:1 and π:e, share only the initial click and never coincide again.
 
