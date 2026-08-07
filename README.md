@@ -23,6 +23,8 @@ Two hard-panned click trains with repetition rates f and f·r in a simple whole-
 
 Irrational ratios, such as √2:1 and π:e, produce the same few clicks per second, but the trains share only the initial click and never coincide again, a rhythm without a repeating cell.
 
+√2:1 accelerated is the tritone of equal temperament. The difference between rational and irrational ratios is in rhythm.
+
 **Max patch:** [`patch/demo1-rhythm-intervals.maxpat`](patch/demo1-rhythm-intervals.maxpat), no version-specific objects, tested in Max 9. [Max](https://cycling74.com/downloads) is free to download and runs patches without a license.
 
 **Slides:** [Sound (Art & Technology)](https://teaching.medienkunst-sound.de/sound_art_and_technology/), HfG Karlsruhe.
